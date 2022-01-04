@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.hero-name {
+  color: orange;
+}
+
+.top-banner {
+  display: flex;
+  background-image: url(../img/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 8.5%;
+}
+
+.half-width img {
+  width: 80%;
+}
+
+.main-p {
+  text-align: justify;
+  margin-bottom: 35px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(to right, #fd907c, #ff6347);
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
